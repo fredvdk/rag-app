@@ -1,7 +1,6 @@
 
 import NavigateButton from "./components/button";
 import Question from "./components/question";
-import Sources from "./components/sources";
 
 const HomePage = async () => {
 

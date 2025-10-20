@@ -73,7 +73,7 @@ const getAnswer = async (question: string, history: ChatMsg[]): Promise<AnswerRe
   
     const messages: ChatMsg[] = [
       { role: 'system', content: 'Gedraag je als een behulpzame assistent, geef zoveel mogelijk informatie en context' },
-      { role: 'user', content: 'Gedraag je als iemand werkzaam in het onderwijs met vragen over de pensioenregeling in het Vlaams onderwijs' },
+      { role: 'user', content: 'Gedraag je als iemand werkzaam in het onderwijs met vragen over de pensioenregeling in het Vlaams onderwijs en bij Defensie' },
       ...history,
       {
         role: 'user',

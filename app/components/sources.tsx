@@ -1,7 +1,5 @@
 
 import { getSources } from "../actions/actions";
-import NavigateButton from "./button";
-
 
 const Sources = async () => {
     const sources = await getSources();

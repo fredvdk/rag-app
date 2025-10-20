@@ -5,10 +5,6 @@ import Sources from "../components/sources";
 
 const ManageSourcesPage = async () => {
 
-    const handleSubmit = ()=> {
-        throw new Error("Function not implemented.");
-    }
-
   return (
     <main className="flex items-center justify-center p-8">
         <div className="w-full max-w-3xl bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 space-y-6">
