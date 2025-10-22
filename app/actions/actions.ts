@@ -80,6 +80,7 @@ const getAnswer = async (question: string, history: ChatMsg[]): Promise<AnswerRe
         content: `Gebruik de volgende context voor je antwoord op de vraag:\n\nContext:${context}\n\nVraag: ${question}`,
       },
     ];  
+    
 
     // 4. Send context + question to GPT
     const completion = await openai.chat.completions.create({
